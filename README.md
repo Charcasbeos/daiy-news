@@ -18,5 +18,4 @@ DailyNews is a Flutter application demonstrating **Clean Architecture** principl
 
 ---
 
-## 🗂 Project Structure
 
