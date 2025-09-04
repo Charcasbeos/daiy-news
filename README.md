@@ -1,16 +1,22 @@
-# new_app_clean_architeture
+# DailyNews Flutter App
 
-A new Flutter project.
+DailyNews is a Flutter application demonstrating **Clean Architecture** principles, **Bloc state management**, and a **core network layer** to fetch and display news articles from a public API. The project is structured for scalability, maintainability, and easy testing.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Fetch news articles from a remote API.
+- Display articles in a clean, scrollable UI.
+- Error handling with **AppException** and centralized network layer.
+- Fully separated layers following **Clean Architecture**:
+  - **Presentation**: Bloc, Events, States, and UI.
+  - **Domain**: Entities and UseCases.
+  - **Data**: Repositories, Models, Mappers, API Services.
+  - **Core**: Network client, error handling, constants.
+- Immutable data flow and reactive UI updates.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🗂 Project Structure
+
